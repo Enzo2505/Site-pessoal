@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Pessoal Enzo</title>
+    <!-- Link para o Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilo.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+        }
+        h1 {
+            font-size: 2.5rem;
+            color: #0a70e6;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.2rem;
+            color: #333;
+        }
+        .content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 30px auto;
+        }
+        .content img {
+            max-width: 400px; /* Aumentei o tamanho da imagem */
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin-right: 20px;
+        }
+        .btn-container {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .btn-container .btn {
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Meu Site</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="tabelaaula.html">Áreas do Saber</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="iot.html">IOT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pessoal.html">Página Pessoal</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container text-center mt-5">
+        <h1>Site Pessoal do Enzo</h1>
+        <p>Navegue para ver os saberes, atividades de IOT e Informações pessoais sobre mim.</p>
+    </div>
+
+    <!-- Conteúdo com imagem e botões -->
+    <div class="container content">
+        <img src="https://blog.gokursos.com/wp-content/uploads/2023/08/161-1371x800.jpg" alt="Imagem de IoT">
+        <div class="btn-container">
+            <a href="tabelaaula.html" class="btn btn-primary">Áreas do Saber</a>
+            <a href="iot.html" class="btn btn-success">IOT</a>
+            <a href="pessoal.html" class="btn btn-info">Página Pessoal</a>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
